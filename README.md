@@ -3,7 +3,7 @@
 https://www.getpostman.com/collections/1d8164010b9435bc67bd
 
 **Database Schema**
-![alt text]()
+![image of schema](https://github.com/yeboah326/customer_api/blob/main/schema.png?raw=true)
 ### **Customers**
 **Create new customer**
 <pre>POST /customers</pre>
