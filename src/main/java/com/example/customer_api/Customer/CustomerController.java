@@ -31,13 +31,13 @@ public class CustomerController {
     }
 
 //    Get customer accounts by email
-    @GetMapping(value = "/customers/{email}/accounts")
+    @GetMapping(value = "/customers/email/{email}/accounts")
     public Set<Account> getCustomerAccountsByEmail(@PathVariable String email){
         return customerService.getCustomerAccountsByEmail(email);
     }
 
 //    Get customer accounts by phone number
-    @GetMapping(value = "/customers/{phoneNumber}/accounts")
+    @GetMapping(value = "/customers/phoneNumber/{phoneNumber}/accounts")
     public Set<Account> getCustomerAccountsByPhoneNumber(@PathVariable String phoneNumber){
         return customerService.getCustomerAccountsByPhoneNumber(phoneNumber);
     }
