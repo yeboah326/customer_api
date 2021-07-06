@@ -1,4 +1,6 @@
 ## **Customer Account API**
+**Postman Link**
+https://www.getpostman.com/collections/1d8164010b9435bc67bd
 ### **Customers**
 **Create new customer**
 <pre>POST /customers</pre>
